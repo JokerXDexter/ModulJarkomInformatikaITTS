@@ -243,7 +243,7 @@ Diketahui sebuah IP Address adalah “192.168.1.0/27” , buatlah tabel pembagia
 -   Jumlah Subnet :
     Untuk menghitung jumlah subnet maka Subnet = 2^n = n, 
     
-    dimana n = jumlah bit yang aktif (angka 1) dimulai dari oktet keempat (C)
+    dimana n = jumlah bit yang aktif (angka 1) dimulai dari oktet keempat (C).
     
     2^3 = 8 Subnet
     
@@ -257,7 +257,9 @@ Diketahui sebuah IP Address adalah “192.168.1.0/27” , buatlah tabel pembagia
     32 - 2 = 30 Host
     
 - Blok Subnet
-    Rumus Blok Subnet Mask : 256 - z, dimana z adalah notasi desimal dari oktet kedua netmask. Maka :
+    Rumus Blok Subnet Mask : 256 - z, 
+    
+    dimana z = adalah notasi desimal dari oktet kedua netmask.
 
     256-224 = 32
 
