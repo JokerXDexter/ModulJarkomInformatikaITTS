@@ -1,4 +1,4 @@
-SUBNETTING AND ROUTING
+SUBNETTING
 ======================
 
 Modul 4 kali ini akan membahas tentang ***Subnetting*** dan ***Routing***.
@@ -41,10 +41,6 @@ Manfaat subnetting :
 - Meningkatkan efisiensi routing
 - Dapat mengatur kebijakan sendiri untuk keamanan jaringan
 - Mengurangi ukuran broadcast domain
-
-**Mengapa Perlu Routing?**
-
-Sebagai permisalan, ketika Anda ingin mengantar paket, maka perlu mencantumkan alamat tujuan. Kemudian Anda kirim ke kantor pos, lalu kantor pos akan mengirimkan paket ke alamat yang dituju. Agar paket sampai ditujuan yang benar, Pak Pos yang mengirimkan paket perlu mengetahui rute untuk mencapai tujuan paket tersebut, proses tersebut yang dinamakan ***routing***. Yaitu, memberitahukan rute perjalanan kepada Pak Pos untuk mencapai alamat tujuan paket yang diantarkannya.
 
 ### IP Address
 IP Address (Versi 4)
