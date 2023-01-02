@@ -20,7 +20,7 @@ Modul 4 kali ini akan membahas tentang ***Subnetting***
         - [B. Classless](#b-classless)
             - [1. VLSM (Variable Length Subnet Masking)](#1-vlsm-variable-length-subnet-masking)
             - [2. CIDR (Classless Inter Domain Routing)](#2-cidr-classless-inter-domain-routing)
-        
+            - [3. FLSM (Fixed Length Subnet Mask))](#3-flsm-fixed-length-subnet-mask)
 
 ## A. PENGENALAN
 ![1](assets/awal.png)
@@ -224,7 +224,7 @@ Lalu ulangi langkah tersebut sampai menjadi sebuah subnet besar yang mencakup 1 
 
 Jika kalian menggunakan CIDR maka netmask yang terbentuk akan menjadi lebih besar dibandingkan dengan menggunakan VLSM. Tetapi salah satu **keunggulan** teknik **CIDR** adalah ketika terdapat subnet baru yang ditambahkan dalam topologi, **tidak perlu melakukan penghitungan kembali** karena kemungkinan besar masih ada interval (*range*) IP yang tidak terpakai. Selain itu, teknik CIDR juga mengefisienkan *routing* karena umumnya tabel routing yang dimiliki lebih sederhana dibandingkan teknik VLSM.
 
-#### C. FLSM (Fixed Length Subnet Mask)
+##### C. FLSM (Fixed Length Subnet Mask)
 Satu network, kita pecah-pecah menjadi beberapa network (subnet) dimana setiap lebar subnet yang satu sama dengan lebarsubnet yang lainnya. 
 Contohnya sebagai berikut :
 
