@@ -1,7 +1,7 @@
 SUBNETTING
 ======================
 
-Modul 4 kali ini akan membahas tentang ***Subnetting*** dan ***Routing***.
+Modul 4 kali ini akan membahas tentang ***Subnetting***
 
 - [A. PENGENALAN](#a-pengenalan)
     - [Istilah](#istilah)
