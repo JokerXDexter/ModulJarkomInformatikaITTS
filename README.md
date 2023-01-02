@@ -78,17 +78,17 @@ Penyelesaian :
 #### Network ID
 Mencari Network ID (NID)
 
-![1](assets/NID.PNG)
+![1](assets/NID.png)
 
 #### Broadcast Address
 Mencari Broadcast Address
 
-![1](assets/BID.PNG)
+![1](assets/BID.png)
 
 #### Available Hosts
 Mencari rentang alamat IP
 
-![1](assets/rentang.PNG)
+![1](assets/rentang.png)
 
 ### IP Publik dan IP Privat
 Alamat IP dibagi menjadi 2 jenis, yaitu :
@@ -103,7 +103,7 @@ Rentang IP Privat :
 Rentang IP Publik adalah selain rentang IP Privat di atas.
 
 ### Let’s Wrap and Warm Up!
-![1](assets/latihan.PNG)
+![1](assets/latihan.png)
 
 **Mari Diskusi**
 
@@ -136,15 +136,15 @@ Class C | /24 | 256
 
 Contoh penerapan pembagian alamat IP dengan metode ***Classful*** sebagai berikut.
 
-![1](assets/top1.PNG)
+![1](assets/top1.png)
 
 Anggap kita memiliki topologi jaringan seperti gambar di atas. Lalu, tentukan jumlah subnet yang ada di dalam topologi tersebut.
 
-![1](assets/top2.PNG)
+![1](assets/top2.png)
 
 Terdapat 8 subnet di dalam topologi. Dengan menggunakan teknik classful setiap subnet akan memiliki netmask /24 karena semua subnet memiliki jumlah host di bawah 256. Sehingga pembagian IP yang memungkinkan untuk topologi di atas adalah sebagai berikut.
 
-![1](assets/hasil.PNG)
+![1](assets/hasil.png)
 
 #### B. Classless
 
@@ -184,7 +184,7 @@ Berdasarkan total IP dan netmask yang dibutuhkan, maka kita dapat menggunakan ne
 
 Dari pohon dari pohon tersebut akan mendapat pembagian IP sebagai berikut.
 
-![1](assets/TabelVLSM.PNG)
+![1](assets/TabelVLSM.png)
 
 ##### 2. CIDR (Classless Inter Domain Routing)
 
@@ -213,12 +213,12 @@ Lalu ulangi langkah tersebut sampai menjadi sebuah subnet besar yang mencakup 1 
 
 **Langkah 4** - Hitung pembagian IP dengan pohon berdasarkan penggabungan subnet yang telah dilakukan.
 
-![6](assets/CIDR6.PNG)
+![6](assets/CIDR6.png)
 
 > **Catatan**
 > **Perbedaan** antara pohon VLSM dengan pohon CIDR adalah ketika satu subnet diturunkan, netmask yang akan terbentuk **disesuaikan dengan penggabungan subnet** yang telah dilakukan sebelumnya. Sebagai contoh, dari netmask besar /21, pada teknik VLSM akan dibagi dua menjadi masing-masing /22. Namun pada penggabungan yang dilakukan sebelumnya, /21 dihasilkan dari penggabungan /22 dan /24 maka subnet yang terbentuk memiliki netmask /22 dan /24.
 **Langkah 5** - Berdasarkan penghitungan, maka didapatkan pembagian IP sebagai berikut.
 
-![9](assets/CIDR7.PNG)
+![9](assets/CIDR7.png)
 
 Jika kalian menggunakan CIDR maka netmask yang terbentuk akan menjadi lebih besar dibandingkan dengan menggunakan VLSM. Tetapi salah satu **keunggulan** teknik **CIDR** adalah ketika terdapat subnet baru yang ditambahkan dalam topologi, **tidak perlu melakukan penghitungan kembali** karena kemungkinan besar masih ada interval (*range*) IP yang tidak terpakai. Selain itu, teknik CIDR juga mengefisienkan *routing* karena umumnya tabel routing yang dimiliki lebih sederhana dibandingkan teknik VLSM.
