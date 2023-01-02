@@ -20,14 +20,6 @@ Modul 4 kali ini akan membahas tentang ***Subnetting*** dan ***Routing***.
         - [B. Classless](#b-classless)
             - [1. VLSM (Variable Length Subnet Masking)](#1-vlsm-variable-length-subnet-masking)
             - [2. CIDR (Classless Inter Domain Routing)](#2-cidr-classless-inter-domain-routing)
-- [C. ROUTING](#c-routing)
-    - [Pengertian](#pengertian-1)
-    - [Praktik](#praktik)
-        - [1) Membuat Topologi](#1-membuat-topologi)
-        - [2) Subnetting](#2-subnetting)
-        - [3) Routing](#3-routing)
-        - [4) Testing](#4-testing)
-- [LATIHAN!](#latihan)
 
 ## A. PENGENALAN
 ![1](assets/awal.PNG)
