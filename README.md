@@ -20,6 +20,7 @@ Modul 4 kali ini akan membahas tentang ***Subnetting***
         - [B. Classless](#b-classless)
             - [1. VLSM (Variable Length Subnet Masking)](#1-vlsm-variable-length-subnet-masking)
             - [2. CIDR (Classless Inter Domain Routing)](#2-cidr-classless-inter-domain-routing)
+        
 
 ## A. PENGENALAN
 ![1](assets/awal.png)
@@ -123,7 +124,7 @@ Dari contoh tersebut, muncullah salah satu konfigurasi paling dasar dalam penyel
 2. Laboratorium AJK memiliki jaringan dengan subnet **10.151.36.0/24**
 
 ### Perhitungan Subnet
-Ada dua metode pembagian IP yang dikenal dalam jaringan, yaitu Classful
+Ada tiga metode pembagian IP yang dikenal dalam jaringan, yaitu Classful
 
 #### A. Classful
 Pembagian IP dengan menggunakan metode ini didasarkan pada pembagian class pada alamat IP. Tiap subnet akan diberikan ukuran atau netmask yang dapat menampung jumlah komputer/ host yang terdapat dalam subnet tersebut. Tabel berikut menunjukkan Class yang terdapat pada metode ***Classful***.
@@ -222,3 +223,13 @@ Lalu ulangi langkah tersebut sampai menjadi sebuah subnet besar yang mencakup 1 
 ![9](assets/CIDR7.png)
 
 Jika kalian menggunakan CIDR maka netmask yang terbentuk akan menjadi lebih besar dibandingkan dengan menggunakan VLSM. Tetapi salah satu **keunggulan** teknik **CIDR** adalah ketika terdapat subnet baru yang ditambahkan dalam topologi, **tidak perlu melakukan penghitungan kembali** karena kemungkinan besar masih ada interval (*range*) IP yang tidak terpakai. Selain itu, teknik CIDR juga mengefisienkan *routing* karena umumnya tabel routing yang dimiliki lebih sederhana dibandingkan teknik VLSM.
+
+#### C. FLSM
+Satu network, kita pecah-pecah menjadi beberapa network (subnet) dimana setiap lebar subnet yang satu sama dengan lebarsubnet yang lainnya. 
+Contohnya sebagai berikut :
+**Percobaan Perhitungan Subnetting dan Netmask Kelas C**
+Diketahui sebuah IP Address adalah “192.168.1.0/27” , buatlah tabel pembagian
+subnet nya !
+192.168.1.0/27
+11111111. 11111111. 11111111.11100000
+255.255.255.224
