@@ -22,7 +22,7 @@ Modul 4 kali ini akan membahas tentang ***Subnetting***
             - [2. CIDR (Classless Inter Domain Routing)](#2-cidr-classless-inter-domain-routing)
 
 ## A. PENGENALAN
-![1](assets/awal.PNG)
+![1](assets/awal.png)
 
 ### Istilah
 
