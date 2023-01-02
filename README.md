@@ -241,12 +241,16 @@ Diketahui sebuah IP Address adalah “192.168.1.0/27” , buatlah tabel pembagia
     /27 = 255.255.255.**224**
     
 -   Jumlah Subnet :
-    Untuk menghitung jumlah subnet maka 2^n = jumlah bit yang aktif (angka 1) dimulai dari oktet keempat
+    Untuk menghitung jumlah subnet maka Subnet = 2^n = n, 
+    
+    dimana n = jumlah bit yang aktif (angka 1) dimulai dari oktet keempat (C)
     
     2^3 = 8 Subnet
     
 - Menghitung jumlah host per subnet Jumlah
-    Untuk menghitung jumlah host maka host = 2^x - 2, dimana x = sisa bit 0 dalam bilangan biner netmask.
+    Untuk menghitung jumlah host maka Host = 2^x - 2, 
+    
+    dimana x = sisa bit 0 dalam bilangan biner netmask.
     
     Host = 2⁵ - 2 = 32 
     
