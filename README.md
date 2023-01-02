@@ -1,11 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
 SUBNETTING AND ROUTING
 ======================
 
