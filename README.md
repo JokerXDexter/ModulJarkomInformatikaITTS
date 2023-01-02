@@ -227,9 +227,33 @@ Jika kalian menggunakan CIDR maka netmask yang terbentuk akan menjadi lebih besa
 #### C. FLSM
 Satu network, kita pecah-pecah menjadi beberapa network (subnet) dimana setiap lebar subnet yang satu sama dengan lebarsubnet yang lainnya. 
 Contohnya sebagai berikut :
+
 **Percobaan Perhitungan Subnetting dan Netmask Kelas C**
-Diketahui sebuah IP Address adalah “192.168.1.0/27” , buatlah tabel pembagian
-subnet nya !
-192.168.1.0/27
-11111111. 11111111. 11111111.11100000
-255.255.255.224
+
+
+Diketahui sebuah IP Address adalah “192.168.1.0/27” , buatlah tabel pembagian subnet nya !
+
+-   Menghitung jumlah subnet :
+    Diketahui netmasknya adalah “/27”
+    /27 = 11111111. 11111111. 11111111.11100000
+    /27 = 255.255.255.224
+    
+-   Jumlah Subnet :
+    2^n = jumlah bit yang aktif (angka 1) dimulai dari oktet ketiga
+    2^3 = 8
+    
+- Menghitung jumlah host per subnet Jumlah
+    Untuk menghitung jumlah host maka host = 2^x - 2, dimana x = sisa bit 0 dalam bilangan biner netmask.
+    Host = 2^5 -2 = 32 -2 = 30
+    
+- Blok Subnet
+    Rumus Blok Subnet Mask : 256 - z, dimana z adalah notasi desimal dari oktet
+kedua netmask. Maka :
+256-224 = 32
+(0,32,64,96,128,160,192,224)
+
+BLOK SUBNET
+NETWORK   | 192.168.1.0  |	192.168.1.32    |	…	|192.168.1.192  |	192.168.1.224
+IP AWAL   | 192.168.1.1  |	192.168.1.33    |	…	|192.168.1.193  |	192.168.1.225
+IP AKHIR  | 192.168.1.30 |	192.168.1.62    |	…	|192.168.1.222  |	192.168.1.254
+BROADCAST | 192.168.1.31 |  192.168.1.63    |	…	|192.168.1.223  |	192.168.1.255
