@@ -236,9 +236,9 @@ Diketahui sebuah IP Address adalah “192.168.1.0/27” , buatlah tabel pembagia
 -   Menghitung jumlah subnet :
     Diketahui netmasknya adalah “/27”
     
-    /27 = 11111111. 11111111. 11111111.11100000
+    /27 = **11111111. 11111111. 11111111.111**00000
     
-    /27 = 255.255.255.224
+    /27 = 255.255.255.**224**
     
 -   Jumlah Subnet :
     2^n = jumlah bit yang aktif (angka 1) dimulai dari oktet ketiga
