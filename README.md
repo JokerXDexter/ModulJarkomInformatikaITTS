@@ -246,13 +246,15 @@ Diketahui sebuah IP Address adalah “192.168.1.0/27” , buatlah tabel pembagia
     
 - Menghitung jumlah host per subnet Jumlah
     Untuk menghitung jumlah host maka host = 2^x - 2, dimana x = sisa bit 0 dalam bilangan biner netmask.
+    
     Host = 2^5 -2 = 32 -2 = 30
     
 - Blok Subnet
-    Rumus Blok Subnet Mask : 256 - z, dimana z adalah notasi desimal dari oktet
-kedua netmask. Maka :
-256-224 = 32
-(0,32,64,96,128,160,192,224)
+    Rumus Blok Subnet Mask : 256 - z, dimana z adalah notasi desimal dari oktet kedua netmask. Maka :
+
+    256-224 = 32
+
+    (0,32,64,96,128,160,192,224)
 
 **BLOK SUBNET**
 BLOK SUBNET |1 |2 |... |7 | 8
