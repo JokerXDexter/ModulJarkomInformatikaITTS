@@ -98,8 +98,8 @@ Alamat IP dibagi menjadi 2 jenis, yaitu :
 
 Rentang IP Privat :
 - 10.0.0.0/8 (Class A)
-- 172.16.0.0/12, 172.31.0.0/12 (Class B)
-- 192.168.0.0/16 (Class C)
+- 172.16.0.0/16, (Class B)
+- 192.168.0.0/24 (Class C)
 
 Rentang IP Publik adalah selain rentang IP Privat di atas.
 
